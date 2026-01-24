@@ -607,7 +607,7 @@ if (logo_lcd_Print_currentMillis - logo_lcd_Print_previousMillis >= logo_lcd_Pri
     }
   }
 
-
+}
 
 
 
