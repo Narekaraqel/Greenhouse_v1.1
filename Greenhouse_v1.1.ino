@@ -78,7 +78,7 @@ ESP32Encoder encoder;
 bool lastBtnState = HIGH;
 bool btnPressed = false;
 unsigned long lastDebounceTime = 0;
-const unsigned long debounceDelay = 50;
+const unsigned long debounceDelay = 200;
 unsigned long lastClickTime = 0;
 const unsigned long doubleClickTime = 500; // calibration doubleClickTime
 unsigned long encoderMillis = 0;       // 0
